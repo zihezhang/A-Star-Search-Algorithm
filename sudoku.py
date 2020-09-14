@@ -22,7 +22,7 @@ def solve(board):
         if check(board, i, (row, col)):
             board[row][col] = i
 
-            if solve(board):
+            if solve(board): #recusively tries to finish the solution
                 return True
 
             board[row][col] = 0

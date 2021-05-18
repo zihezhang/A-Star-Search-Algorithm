@@ -93,4 +93,3 @@ solve(puzzle)
 print("~~~~~~~~~~~~~~~~~~~~~~~~")
 print_board(puzzle)
 
-# Done with the help of https://techwithtim.net/tutorials/python-programming/sudoku-solver-backtracking/
